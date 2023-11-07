@@ -1,0 +1,22 @@
+pipeline{
+node any{
+	stages{
+		stage('Stage1'){
+			steps{
+				echo "Stage1 completed ..!"
+			}
+
+		}
+		stage('Stage2'){
+			steps{
+				echo "Stage2 completed ..##"	
+			}
+		}
+		stage('Stage3'){
+			steps{
+				echo "Stage3 completed ..@@"
+			}
+
+		}
+	}
+}
